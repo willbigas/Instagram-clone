@@ -4,6 +4,8 @@
 
 body {
     background-color: #fafafa;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 footer {
@@ -13,13 +15,16 @@ footer {
     width: 100%;
     position: relative;
     margin: 68px;
-    margin-left: 130px;
+    margin-left: 25%;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .conteudo {
     background-color: #fafafa;
     justify-content: center;
     margin: 30px auto 0;
+    margin-left: 28%;
     max-width: 935px;
     height: 812px;
     padding-bottom: 44px;
@@ -32,6 +37,7 @@ footer {
 
 .imagem-celular {
     padding-top: 80px;
+    padding-left: 25px;
     flex-basis: 454px;
     height: 618px;
     margin-left: -35px;
@@ -46,6 +52,7 @@ footer {
     border: 1px solid #e6e6e6;
     border-radius: 1px;
     margin: 0 0 10px;
+    margin-left: 40px;
     padding: 10px 0;
     position: absolute;
     width: 350px;
@@ -67,6 +74,40 @@ footer {
     right: 160px;
     bottom: 120px;
     
+}
+
+.separador {
+    position: relative;
+    display: inline-block;
+    width: 268px;
+    height: 15px;
+    text-align: center;
+    margin: 10px 40px 18px;
+    margin-bottom: 0px;
+}
+
+.texto-ou {
+    color: #999;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    width: 18.97px;
+    height: 15px;
+    right: 130px;
+    top: -10px;
+}
+
+.divisor {
+    width: 106.26px;
+    height: 1px;
+    flex-shrink: 1;
+    background-color: #efefef;;
+}
+
+#segundo-divisor {
+    position: relative;
+    left: 57%;
 }
 
 .form-botoes {
@@ -134,14 +175,14 @@ footer {
 
 
 .formulario  input {
-    font: 300 12px Arial !important;
+    font: 400 12.5px Arial;
     position: relative; 
     width: 252px;
     height: 30px;
     margin: 0;
     outline: 0;
     padding: 0;
-    color: #fafafa;
+    color: #ffffff;
     background: #fafafa;
     border: none;
 
@@ -212,7 +253,7 @@ li a {
 .copyright {
     color: #999;
     position: absolute;
-    right: 430px;
+    right: 50%;
     bottom: 88px;
 }
 
