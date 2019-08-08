@@ -1,0 +1,281 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: #fafafa;
+}
+
+footer {
+    height: 104px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+    margin: 68px;
+    margin-left: 130px;
+}
+
+.conteudo {
+    background-color: #fafafa;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    height: 812px;
+    padding-bottom: 44px;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    padding: 0;
+    position: relative;
+}
+
+.imagem-celular {
+    padding-top: 80px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+    width: 460px;
+    align-self: center;
+}
+
+
+.formulario {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    right: 160px;
+    top: 15px;
+    
+}
+
+.form-conectar {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    width: 350px;
+    height: 55px;
+    right: 160px;
+    bottom: 120px;
+    
+}
+
+.form-botoes {
+    position: absolute;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    width: 350px;
+    height: 102px;
+    right: 160px;
+    bottom: 0px;
+    text-align: center;
+    
+}
+
+
+.formulario h1 {
+    background-color: #fff;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    height: 51px;
+    width: 175px
+}
+
+.formulario > h2 {
+    background-color: #fff;
+    color: #999;
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 17px;
+    margin: 0 40px 10px;
+}
+
+.formulario > img {
+    background-color: none !important;
+    color: none;
+}
+
+.formulario button {
+    color: #ffffff;
+    background-color: #3897f0;
+    margin: 0 auto;
+    border: 1px solid #3897f0;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    position: relative;
+    width: 268px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    border: none;
+    left: 12%;
+}
+
+.botao-cadastrar {
+    height: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.formulario  input {
+    font: 300 12px Arial !important;
+    position: relative; 
+    width: 252px;
+    height: 30px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    color: #fafafa;
+    background: #fafafa;
+    border: none;
+
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start
+
+}
+
+.input {
+    border: 1px solid #efefef;
+    font: 400 13.333px Arial !important;
+    padding: 4px 0px 4px 7px;
+    position: relative;
+    width: 100%;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    display: flex;
+    color: #262626;
+    margin: 8px auto;
+    width: 268px;
+    height: 38px;
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 3px;
+    background: #fafafa;
+    
+}
+
+.rodape-links {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+nav {
+    width: 756.3px;
+    height: 28px;
+}
+ul {
+    margin: 0;
+    padding-left: 0px;
+}
+
+li {
+    display: inline;
+    color: #003569;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 12px;
+}
+
+li a {
+    color: #003569;
+    font-size: 12px;
+}
+
+.copyright {
+    color: #999;
+    position: absolute;
+    right: 430px;
+    bottom: 88px;
+}
+
+
+
+p {
+    color: #999;
+    margin: 10px 60px;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+#texto-conectar {
+    color: #262626;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+    padding: 0;
+}
+#texto-obterapp {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px;
+    text-align: center;
+    margin: 20px 20px;
+    margin-top: 10px;
+}
+a {
+    color: #999;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#link-conectar {
+    position: relative;
+    vertical-align: middle;
+    color: #3897f0;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+#facebook-icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    padding: 0px 6px 0px 0px;
+    vertical-align: middle;
+}
+
+#img-appstore {
+    width: 136px;
+    height: 40px;
+}
+#img-playstore {
+    width: 134.28;
+    height: 40px;
+}
